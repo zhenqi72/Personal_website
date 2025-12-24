@@ -2,135 +2,149 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Zhenqi Wu — Robotics & AI Researcher</title>
-
-  <!-- Tailwind CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhenqi Wu — Personal Website</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Header -->
+  <!-- ===== Header ===== -->
   <header class="bg-white shadow">
     <div class="container mx-auto px-6 py-8 text-center">
       <h1 class="text-4xl font-bold text-gray-900">Zhenqi Wu</h1>
-      <p class="mt-2 text-lg text-gray-600">Ph.D. Student | Robotics & AI Research</p>
-      <p class="mt-1 text-gray-600">Tampa, FL | zhenqi@usf.edu</p>
+      <p class="mt-2 text-lg text-gray-600">Ph.D. Student | Robotics & AI Researcher</p>
+      <p class="mt-1 text-gray-600">Tampa, FL | <a href="mailto:zhenqi@usf.edu" class="text-blue-600">zhenqi@usf.edu</a></p>
     </div>
   </header>
 
-  <!-- About -->
+  <!-- ===== About ===== -->
   <section class="container mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold text-gray-900">About Me</h2>
-    <p class="mt-4 text-gray-700 leading-relaxed">
-      I am a Ph.D. student in Electrical Engineering at the University of South Florida, with research experience across robotics, perception, reasoning, machine learning, and autonomous systems. My work spans both autonomous navigation and multi-modal learning frameworks.
-    </p>
+    <div class="mt-4 flex items-center space-x-6 flex-wrap">
+      <img src="images/profile.jpg" alt="Zhenqi Wu" class="rounded-lg w-40 h-40 object-cover">
+      <p class="text-gray-700 leading-relaxed max-w-3xl">
+        I am a Ph.D. student in Electrical Engineering with research experience in robotics, autonomous systems, 
+        perception, and machine learning. My work integrates reasoning, simulation, and real-world robotics experiments 
+        to solve complex manipulation and navigation tasks.
+      </p>
+    </div>
   </section>
 
-  <!-- Education -->
+  <!-- ===== Timeline ===== -->
   <section class="bg-white py-10">
     <div class="container mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-gray-900">Education</h2>
-      <ul class="mt-4 space-y-4 text-gray-700">
-        <li>
-          <span class="font-bold">Ph.D. in Electrical Engineering</span><br>
-          University of South Florida (Aug 2025 – Present) — GPA: 4.0/4.0
-        </li>
-        <li>
-          <span class="font-bold">Ph.D. in Computer Science</span><br>
-          Arizona State University (Aug 2023 – May 2025) — GPA: 3.92/4.0
-        </li>
-        <li>
-          <span class="font-bold">M.S. in Electrical & Computer Engineering</span><br>
-          University of Florida (Aug 2021 – May 2023) — GPA: 3.56/4.0
-        </li>
-        <li>
-          <span class="font-bold">B.S. in Electrical Engineering & Automation</span><br>
-          Dalian Maritime University (Sep 2016 – Jul 2020) — GPA: 3.53/4.0
-        </li>
+      <h2 class="text-2xl font-semibold text-gray-900">Experience & Education Timeline</h2>
+      <ul class="mt-6 space-y-4 text-gray-700">
+        <li><strong>Aug 2025 – Present:</strong> Ph.D. in Electrical Engineering, University of South Florida</li>
+        <li><strong>Aug 2023 – May 2025:</strong> Ph.D. in Computer Science, Arizona State University</li>
+        <li><strong>Aug 2021 – May 2023:</strong> M.S. in Electrical & Computer Engineering, University of Florida</li>
+        <li><strong>Sep 2016 – Jul 2020:</strong> B.S. in Electrical Engineering & Automation, Dalian Maritime University</li>
       </ul>
     </div>
   </section>
 
-  <!-- Research & Projects -->
-  <section class="container mx-auto px-6 py-10">
+  <!-- ===== Projects / Research ===== -->
+  <section class="container mx-auto px-6 py-10 bg-gray-50">
     <h2 class="text-2xl font-semibold text-gray-900">Research & Projects</h2>
 
-    <!-- DREAM -->
+    <!-- Project 1 -->
     <div class="mt-6">
-      <h3 class="text-xl font-bold text-gray-800">DREAM: Domain-aware Reasoning for Underwater Monitoring</h3>
+      <h3 class="text-xl font-bold text-gray-800">DREAM – Domain-aware Reasoning for Underwater Monitoring</h3>
       <p class="mt-2 text-gray-700">
-        Designed an integrated architecture for robotic perception, planning, and control. Enhanced reasoning and adaptive execution using multi-modal mapping and Chain-of-Thought techniques.
+        Developed an integrated architecture for robotic perception, planning, and control. This research focused on 
+        multi-modal mapping and reasoning techniques to enable robust navigation and adaptive execution under 
+        uncertainty. Evaluated results in simulation environments and produced state representations for planning.
       </p>
     </div>
 
-    <!-- GuardianML -->
+    <!-- Project 2 -->
     <div class="mt-6">
-      <h3 class="text-xl font-bold text-gray-800">GuardianML: Recommender System for PPML</h3>
+      <h3 class="text-xl font-bold text-gray-800">GuardianML – Recommender System for Privacy-Preserving ML</h3>
       <p class="mt-2 text-gray-700">
-        Co-authored a survey on privacy-preserving machine learning frameworks and developed an open-source tool that recommends optimal PPML setups for real-world deployment.
+        Co-developed an open-source system that automatically recommends optimal configurations for privacy-preserving 
+        machine learning (PPML) deployments. Built structured datasets and conducted algorithm comparisons.
       </p>
     </div>
 
-    <!-- Additional Projects -->
+    <!-- More Projects -->
     <div class="mt-6">
-      <h3 class="text-xl font-bold text-gray-800">Other Projects</h3>
+      <h3 class="text-xl font-bold text-gray-800">Additional Projects</h3>
       <ul class="mt-2 list-disc pl-5 text-gray-700">
-        <li>Bio-inspired STDP Neural Networks for Object Detection</li>
-        <li>Traffic Statistics with DeepSort & YOLOv5 for Real-time Control</li>
-        <li>Vehicle Safety Alert System using DeepLabv3+</li>
-        <li>ESO-based Adaptive Control for Unmanned Surface Vehicles</li>
+        <li>Bio-inspired STDP Neural Networks for Real-Time Object Detection</li>
+        <li>Traffic Statistics via DeepSort & YOLOv5 for Control System Integration</li>
+        <li>Vehicle Safety Alert using DeepLabv3+ and Camera Fusion</li>
+        <li>ESO-Based Adaptive Control for Unmanned Surface Vehicles</li>
       </ul>
     </div>
   </section>
 
-  <!-- Publications -->
-  <section class="bg-white py-10">
-    <div class="container mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-gray-900">Publications</h2>
-      <ul class="mt-4 space-y-3 text-gray-700">
-        <li>
-          Wu, Z., Modi, A., Mavrogiannis, A., et al., “DREAM: Domain-aware Reasoning for Efficient Autonomous Underwater Monitoring”, <em>arXiv</em>.
-        </li>
-        <li>
-          Njungle, N.*, Wu, Z. et al., “GuardianML: Anatomy of Privacy-Preserving Machine Learning Techniques and Frameworks,” <em>IEEE Access</em>, 2025.
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Skills -->
+  <!-- ===== Publications ===== -->
   <section class="container mx-auto px-6 py-10">
-    <h2 class="text-2xl font-semibold text-gray-900">Skills</h2>
-    <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+    <h2 class="text-2xl font-semibold text-gray-900">Publications</h2>
+    <ul class="mt-4 space-y-3 text-gray-700">
+      <li>
+        Wu, Z., Modi, A., Mavrogiannis, A., et al., “DREAM: Domain-aware Reasoning for Efficient Autonomous Underwater Monitoring”, <em>arXiv</em>.
+      </li>
+      <li>
+        Njungle, N.*, Wu, Z., et al., “GuardianML: Anatomy of Privacy-Preserving Machine Learning Techniques and Frameworks,” <em>IEEE Access</em>, 2025.
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== Skill Bars ===== -->
+  <section class="container mx-auto px-6 py-10 bg-gray-50">
+    <h2 class="text-2xl font-semibold text-gray-900">Skill Proficiency</h2>
+    <div class="mt-6 space-y-4">
       <div>
-        <h4 class="font-bold">Programming</h4>
-        <p>Python, C/C++, ROS</p>
+        <span class="font-medium text-gray-700">Python</span>
+        <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-600 h-3 rounded-full" style="width:90%;"></div></div>
       </div>
       <div>
-        <h4 class="font-bold">Machine Learning</h4>
-        <p>PyTorch, Scikit-learn, Transformers</p>
+        <span class="font-medium text-gray-700">C / C++</span>
+        <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-600 h-3 rounded-full" style="width:85%;"></div></div>
       </div>
       <div>
-        <h4 class="font-bold">Robotics & Simulation</h4>
-        <p>MuJoCo, NVIDIA Isaac Sim, OpenCV</p>
+        <span class="font-medium text-gray-700">ROS / Simulation</span>
+        <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-600 h-3 rounded-full" style="width:80%;"></div></div>
       </div>
       <div>
-        <h4 class="font-bold">Domains</h4>
-        <p>Robotics, Vision, Control, Autonomous Systems</p>
+        <span class="font-medium text-gray-700">Machine Learning</span>
+        <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-600 h-3 rounded-full" style="width:80%;"></div></div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="bg-gray-100 py-10">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-2xl font-semibold text-gray-900">Let's Connect</h2>
-      <p class="mt-2 text-gray-700">Email: <a href="mailto:zhenqi@usf.edu" class="text-blue-600">zhenqi@usf.edu</a></p>
+  <!-- ===== Tech Tag Cloud ===== -->
+  <section class="container mx-auto px-6 py-10">
+    <h2 class="text-2xl font-semibold text-gray-900">Tech Stack</h2>
+    <div class="mt-4 flex flex-wrap gap-3 text-gray-800">
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Python</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">C++</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">ROS</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">PyTorch</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Isaac Sim</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">MuJoCo</span>
+      <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">OpenCV</span>
     </div>
   </section>
 
+  <!-- ===== Social Links ===== -->
+  <section class="container mx-auto px-6 py-10 text-center">
+    <h2 class="text-2xl font-semibold text-gray-900">Connect with Me</h2>
+    <div class="mt-4 flex justify-center space-x-6">
+      <a href="https://github.com/zhenqi72" target="_blank">
+        <img src="images/icons/github.svg" alt="GitHub" class="w-8 h-8">
+      </a>
+      <a href="https://www.linkedin.com/in/zhenqi-wu-55512122a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRXkSg3A3SRmFACMTnzpwFw%3D%3D" target="_blank">
+        <img src="images/icons/linkedin.svg" alt="LinkedIn" class="w-8 h-8">
+      </a>
+      <a href="https://scholar.google.com/citations?user=6EwheW4AAAAJ&hl=zh-CN" target="_blank">
+        <img src="images/icons/google-scholar.svg" alt="Google Scholar" class="w-8 h-8">
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
   <footer class="bg-white py-6 text-center text-gray-600">
     © 2025 Zhenqi Wu — All Rights Reserved
   </footer>
